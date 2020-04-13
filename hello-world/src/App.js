@@ -1,24 +1,18 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-
+import Greet from './components/Greet'   // imported funtional component called Greet
+import Welcome from './components/Welcome' // statful component creation
+import Hello from './components/Hello'  // updating with jsx (note: jsx is simpler)
+import Hello2 from './components/Hello2'  // updating without jsx 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-         Hello World!
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="App">  
+     
+       <Greet />   
+       <Welcome />
+       <Hello/>
+       <Hello2/>
     </div>
   );
 }
