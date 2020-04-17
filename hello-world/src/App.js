@@ -7,12 +7,14 @@ import Hello from './components/Hello'  // updating with jsx (note: jsx is simpl
 import Hello2 from './components/Hello2';  // updating without jsx 
 import Mutl from './components/Mutl' // usage of props
 import Mult2 from './components/Mult2' // class components
+import Message from './components/Message'
 function App() {
   return (
     <div className="App">  
      
        <Greet />   
        <Welcome />
+       <Message />
        <Hello />
        <Hello2 />
        <Mutl name="Tony" heroName="Iron Man"> "Best Hero"  </ Mutl>
