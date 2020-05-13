@@ -17,12 +17,12 @@ class Message extends Component {
             <div>
 
             <h1>{this.state.Message}</h1>
-            <button onClick = {() => this.changeMessage() }>Subscribe</button>
+            <button onClick = {() => this.changeMessage() }>Subscribe</button> 
             </div>
         )
     }
     
 }
 
-
+// second approach onclick= {this.changeMessage.bind(this)}
 export default Message 

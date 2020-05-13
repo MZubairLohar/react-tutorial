@@ -13,6 +13,9 @@ import Func from './components/Func'
 import Func2 from './components/Func2'
 import FunctionClick from './components/FunctionClick'
 import ClassClick from './components/ClassClick'
+import ParentComponent from './components/ParentComponent'
+
+
 function App() {
   return (
     <div className="App">  
@@ -37,6 +40,7 @@ function App() {
        <Func2 name="Thor" heroName="Thor"/>
        <FunctionClick />
        <ClassClick />
+       <ParentComponent />
 
     </div>
   );
