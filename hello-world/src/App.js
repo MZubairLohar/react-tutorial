@@ -14,11 +14,13 @@ import './App.css';
 // import FunctionClick from './components/FunctionClick'
 // import ClassClick from './components/ClassClick'
 // import ParentComponent from './components/ParentComponent'
+import UserGreetings from './components/UserGreetings'
 
 
 function App() {
   return (
     <div className="App">  
+    <UserGreetings />
        {/* <Greet />   
        <Welcome />
        <Message />
@@ -41,6 +43,7 @@ function App() {
        <FunctionClick />
        <ClassClick />
        <ParentComponent /> */}
+       
 
     </div>
   );
