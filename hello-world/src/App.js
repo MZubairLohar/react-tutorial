@@ -15,12 +15,16 @@ import './App.css';
 // import ClassClick from './components/ClassClick'
 // import ParentComponent from './components/ParentComponent'
 import UserGreetings from './components/UserGreetings'
-
+//import NameList from './components/NameList'
+import PersonList from './components/PersonList'
+//import Person from './components/Person'
 
 function App() {
   return (
     <div className="App">  
     <UserGreetings />
+    <PersonList />
+       {/* <NameList/> */}
        {/* <Greet />   
        <Welcome />
        <Message />
