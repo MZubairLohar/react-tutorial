@@ -22,7 +22,7 @@ function PersonList() {
             skill: 'javascript'
         }
     ]
-const personsList = persons.map (person => <Person person = {person} />)
+const personsList = persons.map (person => <Person key={person.id} person = {person} />)
     return (
         <div>{personsList}</div>)
 }
