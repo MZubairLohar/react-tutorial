@@ -14,16 +14,24 @@ import './App.css';
 // import FunctionClick from './components/FunctionClick'
 // import ClassClick from './components/ClassClick'
 // import ParentComponent from './components/ParentComponent'
-import UserGreetings from './components/UserGreetings'
+//import UserGreetings from './components/UserGreetings'
 //import NameList from './components/NameList'
-import PersonList from './components/PersonList'
+//import PersonList from './components/PersonList'
 //import Person from './components/Person'
+import StyleSheet from './components/StyleSheet'
+import Inline from './components/Inline'
+import './components/AppStyles.css'
+import styles from './components/AppStyles.module.css'
 
 function App() {
   return (
     <div className="App">  
-    <UserGreetings />
-    <PersonList />
+    <h1 className='error'>Error</h1>
+    <h1 className={styles.success}>Success</h1>
+    <StyleSheet primary = {true} />
+    <Inline />
+    {/* <UserGreetings />
+    <PersonList /> */}
        {/* <NameList/> */}
        {/* <Greet />   
        <Welcome />
