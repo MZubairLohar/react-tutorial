@@ -1,0 +1,14 @@
+{
+  "name": "bootcamp",
+  "version": "1.0.0",
+  "description": "react app",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm start"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "create-react-app": "^3.4.1"
+  }
+}
